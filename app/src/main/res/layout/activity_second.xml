@@ -8,9 +8,18 @@
     android:gravity="center"
     tools:context=".SecondActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="두번째 액티비티"/>
+        android:hint="제목 입력"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="내용 입력"
+        android:gravity="top"/>
 
 </LinearLayout>
